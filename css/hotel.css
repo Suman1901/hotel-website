@@ -1,0 +1,443 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p,li,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.banner{
+    background-image: url(../css/images/hotel\ banner\ image.png);
+    background-size: cover;
+    /* width: 100%; */
+    height: 658px;
+    background-repeat: no-repeat;
+    padding: 40px 126px 0px 120px;
+}
+nav{
+    background: #FFFFFF;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .nav-menu{
+    display: flex;
+    list-style: none;
+    padding: 25.5px 49px;
+}
+.nav-menu .menu-list .n-men-lis-t{
+    text-decoration: none;
+    color: #65AEF2;
+}
+.nav-menu .menu-list .n-men-list{
+    text-decoration: none;
+    color: black;
+    margin-left: 84px;
+}
+.nav-menu .menu-list .n-men-list:hover{
+    color: #65AEF2;
+}
+.logo{
+    width: 78px;
+}
+.logo .logo-text{
+    font-family: "Inika", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 20.58px;
+    position: relative;
+}
+.logo .logo-text::before{
+    content: '';
+    position: absolute;
+    background-image: url(../css/images/Arrow\ 1.png);
+    width: 78px;
+    height: 42px;
+    background-repeat: no-repeat;
+    left: 15px;
+}
+.banner-text-box{
+    width: 733px;
+    margin-top: 316px;
+}
+.banner-text{
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* book-sec */
+
+.book-sec{
+    padding: 80px 123px;
+
+}
+.book-sec .book-box{
+    background: #E9F3F6;
+    border-radius: 42px;
+    padding: 36px 60px;
+}
+.book-sec .book-head-text{
+    font-size: 32px;
+    line-height: 38.73px;
+    text-align: center;
+}
+.book-sec .book-small-text{
+    font-size: 16px;
+    color: #5E5E5E;
+    line-height: 19.36px;
+    text-align: center;
+    margin-top: 9px;
+    margin-bottom: 57px;
+}
+.date-person-box{
+    display: flex;
+    justify-content: space-between;
+}
+.book-sec .date-box{
+    width: 265px;
+    /* border: 1px solid black; */
+}
+.date-box .date{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.date-box .check-box{
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 18px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.person-box{
+    width: 433px;
+    /* border: 1px solid black; */
+}
+.person{
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.person-box .person-text-box{
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 18px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.person-text-box .per-icon-text{
+    display: flex;
+
+}
+.per-icon-text .person-text{
+    margin-left: 18px;
+}
+.person-text-box .per-num{
+    display: flex;
+}
+.person-text-box .child-icon-text{
+    display: flex;
+}
+.child-icon-text .child-text{
+    margin-left: 18px;
+
+}
+.child-icon-text .zero{
+    margin-left: 35px;
+}
+.book-now-button{
+    background: #65AEF2;
+    width: 201px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    /* font-weight: 700; */
+    border-radius: 12px;
+    height: 59px;
+    margin-top: auto;
+}
+.book-now-button:hover{
+    background: none;
+    color: #65AEF2;
+    border: 2px solid #65AEF2;
+}
+
+/* images-sec */
+
+.images-sec{
+    background: #F3F3F3;
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.images-sec .room-img{
+    position: relative;
+
+}
+.room-img .room{
+    position: absolute;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+    bottom: 70px;
+    left: 131px;
+}
+
+.small-images-box .dining-img{
+    position: relative;
+}
+.dining-img .dinning{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    bottom: 70px;
+    left: 145px;
+}
+.small-images-box .Service-img{
+    position: relative;
+    margin-top: 40px;
+}
+.Service-img .service{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    bottom: 70px;
+    left: 56px;
+}
+.small-images-box2 .conferance-img{
+    position: relative;
+}
+.conferance-img .conferance-text{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    bottom: 70px;
+    left: 27px;
+    text-align: center;
+}
+.small-images-box2 .wedding-img{
+    position: relative;
+    margin-top: 40px;
+}
+.wedding-img .wedding{
+    position: absolute;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    bottom: 70px;
+    left: 55px;
+}
+.offer-sec{
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offer-text .special-offer-text{
+    font-size: 32px;
+    color: #65AEF2;
+    line-height: 38.73px;
+}
+.offer-text .best-offer-text{
+    font-size: 64px;
+    line-height: 77.45px;
+    margin-top: 20px;
+}
+.offer-text .experience{
+    font-size: 24px;
+    line-height: 29.05px;
+    width: 742px;
+    margin-top: 40px;
+}
+.view-all{
+    font-size: 32px;
+    font-weight: 700;
+    color: #65AEF2;
+    text-decoration: none;
+}
+
+/* cards-sec */
+
+.cards-sec{
+    padding: 0 60px 120px 60px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards .honeymoon-card{
+    width: 400px;
+    padding: 20px;
+    border-radius: 42px;
+    box-shadow: 0px 0px 19px -13px;
+}
+.honey-image{
+    width: 100%;
+}
+.honeymoon-card .room{
+    font-size: 12px;
+    color: #5E5E5E;
+    margin-top: 28px;
+}
+.honeytext-icon{
+    display: flex;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon{
+    display: flex;
+}
+.honeytext-icon .number{
+    font-size: 16px;
+    /* margin-right: 8px; */
+}
+.honeymoon-card .honeymoon-text{
+    font-size: 24px;
+    font-weight: 700;
+}
+.honeymoon-small-text{
+    font-size: 12px;
+    color: #5E5E5E;
+    margin-top: 20px;
+}
+.honeymoon-card .amount{
+    display: flex;
+    margin: 35px auto;
+    width: 147px;
+    justify-content: space-between;
+}
+.amount .money{
+    font-size: 36px;
+    font-weight: 700;  
+}
+.amount .night{
+    margin-top: auto;
+}
+
+.meeting-card{
+    padding: 20px;
+    border-radius: 42px;
+    box-shadow: 0px 0px 19px -13px;
+}
+.meeting-image{
+    width: 100%;
+}
+.meeting-card .room{
+    font-size: 12px;
+    color: #5E5E5E;
+    margin-top: 28px;
+}
+.meeting-card .Meetings-text{
+    font-size: 24px;
+    /* margin-top: 12px; */
+    font-weight: 700;
+}
+.meeting-card .Meetings-small-text{
+    font-size: 12px;
+    color: #5E5E5E;
+    margin-top: 20px;
+    width: 359px;
+}
+.meeting-card .amount{
+    display: flex;
+    margin: 35px auto;
+    width: 147px;
+    justify-content: space-between;
+}
+
+.Romantic-card{
+    padding: 20px;
+    border-radius: 42px;
+    box-shadow: 0px 0px 19px -13px;
+}
+.Romantic-card .Romantic-image{
+    width: 100%;
+}
+.Romantic-card .Dining{
+    font-size: 12px;
+    color: #5E5E5E;
+    margin-top: 28px;
+}
+.Romantic-card .Romantic-text{
+    font-size: 24px;
+    /* margin-top: 12px; */
+    font-weight: 700;
+}
+.Romantic-card .Romantic-small-text{
+    font-size: 12px;
+    color: #5E5E5E;
+    margin-top: 20px;
+    width: 359px;
+}
+.Romantic-card .amount{
+    display: flex;
+    margin: 35px auto;
+    width: 147px;
+    justify-content: space-between;
+}
+
+/* footer */
+
+footer{
+    background: #1E1E1E;
+    padding: 58px 54px 26px 95px;
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-details .news-search-bar{
+    margin-top: 84px;
+}
+.news-search-bar .news-special{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 40px;
+}
+.news-search-bar .search-bar{
+    padding: 25px 138px 25px 48px;
+    font-size: 24px;
+    font-style: italic;
+}
+.footer-details .deatils{
+    width: 502px;
+    /* background: #a7a7e2; */
+}
+.deatils .logo{
+    margin: 0 auto 68px auto;
+}
+.logo-text.foot{
+    color: white;
+}
+.details-box{
+    display: flex;
+    justify-content: space-between;
+}
+.about-details li{
+    list-style: none;
+}
+.about-details li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+.copyright-text{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-top: 169px;
+}

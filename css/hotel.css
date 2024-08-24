@@ -13,7 +13,7 @@ img{
     height: auto;
 }
 .banner{
-    background-image: url(../css/images/hotel\ banner\ image.png);
+    background-image: url(../images/hotel\ banner\ image.png);
     background-size: cover;
     /* width: 100%; */
     height: 658px;
